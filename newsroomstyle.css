@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color:white; /* Dark Purple */
+    color: #f5f5f5;
+}
+
+header {
+    background-color: #6a1b9a; /* Purple */
+    color: white;
+    padding: 15px 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+footer {
+    background-color: #6a1b9a; /* Purple */
+    color: white;
+    padding: 15px 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* nav bar links */
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+    color: #6a1b9a; /* Purple */
+    background-color: white;
+    border-radius: 5px;
+}
+
+section .section-content-justin h1 {
+    color: #8e24aa; /* Purple */
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section .section-content-justin h4 {
+    color: #8e24aa; /* Purple */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section .section-content-justin h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+section .section-content-justin h3 {
+    color: #ba68c8; /* Light purple */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section .section-content-justin h5 {
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 11%;
+    margin-right: 10%;
+}
+
+#justin {
+    height: 650px;
+    width: 950px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section .section-content-newyear h1 {
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section .section-content-newyear h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section .section-content-newyear h4 {
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#newyear {
+    height: 600px;
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section .section-content-feastday h1 {
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section .section-content-feastday h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section .section-content-feastday h4 {
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 14%;
+    margin-right: 10%;
+}
+
+#feastday {
+    height: 600px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section .section-content-presscon h1 {
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section .section-content-presscon h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section .section-content-presscon h4 {
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+#presscon {
+    height: 400px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section .section-content-literature h1 {
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section .section-content-literature h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section .section-content-literature h3 {
+    color: #ba68c8; /* Light purple */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section .section-content-literature h4 {
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+#literature {
+    height: 500px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+section .section-content-beforeliterature h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section .section-content-beforeliterature h4 {
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#beforeliterature {
+    height: 500px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #6a1b9a; /* Purple */
+    color: white;
+    padding: 15px 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* nav bar links */
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+    color: #6a1b9a; /* Purple */
+    background-color: white;
+    border-radius: 5px;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: lightgray;
+}
+
+.junior-high h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    color: white;
+}
+
+.junior-high {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.junior-high h3 {
+    text-decoration: none;
+    background: #6a0dad; /* Violet */
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: 1px solid #800080; /* Purple */
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.program {
+    position: relative;
+    width: 60%;
+    margin: 0 20%;
+    transition: margin-bottom 0.5s;
+}
+
+.program .info {
+    display: none;
+    background: #8a2be2; /* Blue Violet */
+    color: white;
+    padding: 10px;
+    border: 1px solid #800080; /* Purple */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    opacity: 0;
+    transition: opacity 0.5s, max-height 0.5s;
+    max-height: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.junior-high .program:hover .info {
+    display: block;
+    opacity: 1;
+    max-height: 200px;
+}
+
+footer {
+    background: #9c4dcc; /* Medium Purple */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+.footer-col h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 2px 0;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col ul li a:hover {
+    color: #ba68c8; /* Light Purple */
+}
+
+.footer-col form {
+    margin-top: 10px;
+}
+
+.footer-col input {
+    padding: 5px;
+    border: none;
+}
+
+.footer-col button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-col button:hover {
+    background: #9c27b0; /* Deep Purple */
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle:checked {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+}
